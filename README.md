@@ -27,7 +27,7 @@ Source: mzr64 generator (seed = 1234567890)
 #            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
 #=============================================================================#
    rng_name    |rands/second|   Seed   |
-stdin_input_raw|  1.14e+08  | 736478729|
+stdin_input_raw|  1.37e+08  | 736478729|
 #=============================================================================#
         test_name   |ntup| tsamples |psamples|  p-value |Assessment
 #=============================================================================#
