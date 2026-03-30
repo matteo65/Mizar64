@@ -153,7 +153,7 @@ Preparing to run test 209.  ntuple = 0
 ## Output quality
 The algorithm leverages the **Golden Ratio** (2^64/⌀) for maximum bit diffusion and a **Weyl sequence** to ensure a full period of at least 2^64  
 Tests performed on x86_64 (i7-10th Gen) using GCC 11.4 (-O3) and OpenJDK 17.  
-.
+
 ## Language	Cycles/Num	Speed (approx)
 C	4.07	~850 Mib/s  
 Java	~5.5 - 6.5	~600 Mib/s  
