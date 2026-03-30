@@ -149,6 +149,15 @@ Preparing to run test 208.  ntuple = 0
 Preparing to run test 209.  ntuple = 0
         dab_monobit2|  12|  65000000|       1|0.78564286|  PASSED
 ```
+
+## Output quality
+The algorithm leverages the **Golden Ratio** (2^64/⌀) for maximum bit diffusion and a **Weyl sequence** to ensure a full period of at least 2^64  
+Tests performed on x86_64 (i7-10th Gen) using GCC 11.4 (-O3) and OpenJDK 17.
+.
+## Language	Cycles/Num	Speed (approx)
+C	4.07	~850 Mib/s
+Java	~5.5 - 6.5	~600 Mib/s
+
 ## Usage
 
 ### Simple Version (Single-thread)
@@ -167,13 +176,15 @@ mzr64_state_t state;
 mzr64_seed_r(&state, 12345);
 uint64_t val = mzr64_r(&state);
 ```
-##Compilation
+
+## Compilation
 You can compile the library with any C99+ compiler:
 '''bash
 gcc -O3 mzr64.c your_project.c -o your_project
 '''
 
-##Versioning
+## Versioning
 Current Version: 1.0.0 (MZR64_VERSION 100)
-License
-This project is released under the Apache 2.0 License.
+
+## License
+This project is released under the **Apache 2.0 License** - see the LICENSE file for details.
