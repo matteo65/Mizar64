@@ -28,6 +28,7 @@ MZR64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG) u
 
 mzr64_seed(12345);
 uint64_t val = mzr64();
+```c
 
 ### Reentrant Version (Multi-thread)
 ```c
@@ -36,4 +37,5 @@ uint64_t val = mzr64();
 mzr64_state_t state;
 mzr64_seed_r(&state, 12345);
 uint64_t val = mzr64_r(&state);
+```c
 
