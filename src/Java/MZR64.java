@@ -1,9 +1,20 @@
 package org.mzr;
 
 /**
- * MZR64 PRNG - Minimalist Zap-Rand 64-bit
- * Java implementation (Thread-safe)
+ * MZR64
+ * 
+ * Ultra-fast, minimalist, robust pseudo-random number generator (PRNG)
+ * 
+ * Author: Matteo Zapparoli
+ * Date: 2026-04
+ * Version 1.0
+ *
+ * SPDX-FileCopyrightText: 2026 Matteo Zapparoli
+ * SPDX-License-Identifier: Apache-2.0
+ * See LICENSE file in project root.
+ * 
  */
+
 public class MZR64 {
 
     private static final long MZR_GOLDEN = 0x9E3779B97F4A7C15L;
