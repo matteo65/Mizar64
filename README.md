@@ -22,14 +22,14 @@ MZR64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG) u
 
 ### Output Dieharder Test
 Source mzr64 generator seed = 1234567890
-#=============================================================================#  
+=============================================================================  
              dieharder version 3.31.1 Copyright 2003 Robert G. Brown            
-#=============================================================================#  
+=============================================================================  
    rng_name    |rands/second|   Seed   |  
 stdin_input_raw|  1.14e+08  | 736478729|  
-#=============================================================================#  
+=============================================================================   
         test_name   |ntup| tsamples |psamples|  p-value |Assessment  
-#=============================================================================#  
+=============================================================================    
    diehard_birthdays|   0|       100|     100|0.77599620|  PASSED  
       diehard_operm5|   0|   1000000|     100|0.86076439|  PASSED  
   diehard_rank_32x32|   0|     40000|     100|0.24882925|  PASSED  
@@ -166,4 +166,13 @@ mzr64_state_t state;
 mzr64_seed_r(&state, 12345);
 uint64_t val = mzr64_r(&state);
 ```
+##Compilation
+You can compile the library with any C99+ compiler:
+'''bash
+gcc -O3 mzr64.c your_project.c -o your_project
+'''
 
+##Versioning
+Current Version: 1.0.0 (MZR64_VERSION 100)
+License
+This project is released under the Apache 2.0 License.
