@@ -179,9 +179,9 @@ uint64_t val = mzr64_r(&state);
 
 ## Compilation
 You can compile the library with any C99+ compiler:
-'''bash
+```bash
 gcc -O3 mzr64.c your_project.c -o your_project
-'''
+```
 
 ## Versioning
 Current Version: 1.0.0 (MZR64_VERSION 100)
