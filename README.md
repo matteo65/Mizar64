@@ -23,7 +23,7 @@ MZR64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG) u
 ### Output Dieharder Test
 Source mzr64 generator seed = 1234567890
 #=============================================================================#  
-#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #  
+             dieharder version 3.31.1 Copyright 2003 Robert G. Brown            
 #=============================================================================#  
    rng_name    |rands/second|   Seed   |  
 stdin_input_raw|  1.14e+08  | 736478729|  
