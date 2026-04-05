@@ -1,12 +1,12 @@
-# Mizar64 PRNG (Minimalist Zap-Rand 64-bit)
+# Mizar64 PRNG
 
-Mizar64 is an ultra-fast, minimalist, and thread-safe pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
+Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
 
 ## Features
 - **High Performance**: Extremely efficient, averaging **~4.07 cycles per number** on modern x86_64 architectures.
 - **Statistical Robustness**: Successfully passes the **Dieharder** battery of tests with excellent p-values.
 - **Minimal Footprint**: Only two 64-bit state variables and a few lines of code.
-- **Thread-Safe**: Supports reentrant calls via a state structure (`mzr64_state_t`).
+- **Thread-Safe**: Supports reentrant calls via a state structure (`mizar64_state_t`).
 - **Deterministic**: Provides consistent results across different platforms using 64-bit constants.
 
 ## Algorithm Logic
