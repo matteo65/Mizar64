@@ -1,6 +1,6 @@
-# mzr64 PRNG (Minimalist Zap-Rand 64-bit)
+# Mizar64 PRNG (Minimalist Zap-Rand 64-bit)
 
-mzr64 is an ultra-fast, minimalist, and thread-safe pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
+Mizar64 is an ultra-fast, minimalist, and thread-safe pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
 
 ## Features
 - **High Performance**: Extremely efficient, averaging **~4.07 cycles per number** on modern x86_64 architectures.
@@ -10,18 +10,18 @@ mzr64 is an ultra-fast, minimalist, and thread-safe pseudo-random number generat
 - **Deterministic**: Provides consistent results across different platforms using 64-bit constants.
 
 ## Algorithm Logic
-MZR64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG) using the **Golden Ratio** and a **Weyl sequence**, then applies a non-linear mixing phase involving 32-bit XOR-rotations and a final multiplication to ensure maximum bit diffusion.
+Mizar64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG) using the **Golden Ratio** and a **Weyl sequence**, then applies a non-linear mixing phase involving 32-bit XOR-rotations and a final multiplication to ensure maximum bit diffusion.
 
 ## Performance Benchmark
 
 | Algorithm | Cycles/Number (lower is better) | Bit Size |
 |-----------|---------------------------------|----------|
-| **mzr64** | **4.07**                        | 64-bit   |
+|**Mizar64**| **4.07**                        | 64-bit   |
 | SplitMix64| ~4.2 - 5.0                      | 64-bit   |
 | PCG64     | ~5.5 - 7.0                      | 64-bit   |
 
 ### Output Dieharder Test
-Source: mzr64 generator (seed = 1234567890)
+Source: Mizar64 generator (seed = 1234567890)
 ```txt
 #=============================================================================#
 #            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
@@ -162,25 +162,25 @@ Java	~5.5 - 6.5	~600 Mib/s
 
 ### Simple Version (Single-thread)
 ```c
-#include "mzr64.h"
+#include "mizar64.h"
 
-mzr64_seed(12345);
-uint64_t val = mzr64();
+mizar64_seed(12345);
+uint64_t val = mizar64();
 ```
 
 ### Reentrant Version (Multi-thread)
 ```c
-#include "mzr64.h"
+#include "mizar64.h"
 
-mzr64_state_t state;
-mzr64_seed_r(&state, 12345);
-uint64_t val = mzr64_r(&state);
+mizar64_state_t state;
+mizar64_seed_r(&state, 12345);
+uint64_t val = mizar64_r(&state);
 ```
 
 ## Compilation
 You can compile the library with any C99+ compiler:
 ```bash
-gcc -O3 mzr64.c your_project.c -o your_project
+gcc -O3 mizar64.c your_project.c -o your_project
 ```
 
 ## Versioning
