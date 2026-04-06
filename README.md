@@ -184,7 +184,7 @@ gcc -O3 mizar64.c your_project.c -o your_project
 ```
 
 ## Versioning
-Current Version: 1.0.0 (MZR64_VERSION 100)
+Current Version: 1.0.0 (MIZAR64_VERSION 100)
 
 ## License
 This project is released under the **Apache 2.0 License** - see the LICENSE file for details.
