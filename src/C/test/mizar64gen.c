@@ -30,7 +30,7 @@
 
 #define BUFFER_SIZE 1024
 
-void usage()
+void usage(void)
 {
 	printf("mizar64gen - Continous mizar64 stdout pseudo number generator in binary format\n");
 	printf("Usage:\n");
