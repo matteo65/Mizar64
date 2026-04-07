@@ -1,8 +1,8 @@
 # Mizar64 PRNG
+Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
 
 ## Labor omnia vincit
-This project is the most substantial result to date from an independent R&D effort I started in 2021 on hash functions and PRNGs—a journey that is still ongoing. Mizar64 relies on constants originally identified by Donald Knuth, whose pioneering work has inspired developers since the 1980s; special thanks to him for both these values and his broader impact on computing. I also gratefully acknowledge the AI tools that assisted with test planning, software configuration, testing tool development, and translation throughout this process
-Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
+This project is the most substantial result to date from an independent R&D effort I started in 2021 on hash functions and PRNGs—a journey that is still ongoing. Mizar64 relies on constants originally identified by Donald Knuth, whose pioneering work has inspired developers since the 1980s; special thanks to him for both these values and his broader impact on computing. I also gratefully acknowledge the AI tools that assisted with test planning, software configuration, testing tool development, and translation throughout this process  
 
 ## Period
 The internal state is 128 bits, but the algorithm's design limits the effective state space for cycling. Current estimates place the period around 2^80–2^90.
