@@ -6,7 +6,7 @@ Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRN
 I also gratefully acknowledge the AI tools that assisted with test planning, software configuration, testing tool development, and translation throughout this process*  
 
 ## Period
-The internal state is 128 bits, but the algorithm's design limits the effective state space for cycling. Current estimates place the period around 2^80–2^90.
+The internal state is 128 bits, but the algorithm's design limits the effective state space for cycling. Current estimates place the period around 2<sup>80</sup>–2<sup>90</sup>.
 
 ## Features
 
