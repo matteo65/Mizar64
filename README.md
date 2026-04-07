@@ -24,7 +24,8 @@ This table summarizes the results.
    1|dieharder -a -g 200 |defalut      |default      |test_01_dieharder.txt |110 PASSED, 4 WEAK  
    2|dieharder -a -g 200 |0            |0            |test_02_dieharder.txt |114 PASSED  
    3|dieharder -a -g 200 |123456789    |987654321    |test_03_dieharder.txt |110 PASSED, 4 WEAK  
-   4|dieharder -a -g 200 |max uint64_t |max uint64_t |test_04_dieharder.txt |112 PASSED, 2 WEAK  
+   4|dieharder -a -g 200 |max uint64_t |max uint64_t |test_04_dieharder.txt |112 PASSED, 2 WEAK
+   5|RNG_test stdin64 -tlmin 4GB|123456789|987654321|test_05_rng_test.txt| len from 4GB to 16TB, 0 anomalies
 
 
 ## Language	Cycles/Num	Speed (approx)
