@@ -5,7 +5,7 @@
  * Date: 2026-04-01
  * Author: Matteo Zapparoli
  *
- * Prints a continuous stream of random numbers generated with mzr64 to stdout
+ * Prints a continuous stream of random numbers generated with mizar64 to stdout
  *
  * Compile: gcc -O3 -I.. mizar64gen.c ../mizar64.o -o mizar64gen
  *
