@@ -33,6 +33,15 @@ This table summarizes the results.
    4|dieharder -a -g 200 |max uint64_t |max uint64_t |test_04_dieharder.txt |112 PASSED, 2 WEAK
    5|RNG_test stdin64 -tlmin 4GB|123456789|987654321|test_05_rng_test.txt| length from 4GB to 32TB, no anomalies in 455 test
 
+### Tests on the 4 lower bytes
+These are the results of statistical analysis applied to the lowest 4 bytes
+
+  n.| Tools              | Seed c      | Seed x      | File output          | Results  
+ --:|:---                |:---         |:---         |:---                  |:---
+  30|dieharder -a -g 200 |12345        |67890        |test_30_dieharder.txt |112 PASSED, 2 WEAK
+  31|dieharder -a -g 200 |0            |0            |test_31_dieharder.txt |113 PASSED, 1 WEAK
+  
+
 
 ## Language	Cycles/Num	Speed (approx)
 
