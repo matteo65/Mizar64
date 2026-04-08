@@ -11,8 +11,8 @@
  * Compile: gcc -O3 -I.. simplegen.c ../mizar64.o -o simplegen
  *
  * Sintax:
- * 	printbytes                    Print help
- * 	printbytes <n>                Print a newline every n bytes, 0 no print
+ * 	 simplegen                         Print help
+ *   simplegen <seed c> <seed x> <n>   Print on stdout n pseudo-random 64 bit numbers
  *
  */
 
