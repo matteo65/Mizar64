@@ -40,6 +40,7 @@ These are the results of statistical analysis applied to the lowest 4 bytes
  --:|:---                |:---         |:---         |:---                  |:---
   30|dieharder -a -g 200 |12345        |67890        |test_30_dieharder.txt |112 PASSED, 2 WEAK
   31|dieharder -a -g 200 |0            |0            |test_31_dieharder.txt |113 PASSED, 1 WEAK
+  32|dieharder -a -g 200 |123456789    |987654321    |test_32_dieharder.txt |112 PASSED, 2 WEAK 
   
 
 
