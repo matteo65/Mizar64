@@ -10,7 +10,7 @@
  * Compile: gcc -O3 -I.. mizar64gen.c ../mizar64.o -o mizar64gen
  *
  * Sintax:
- *  mizar64gen [[-d | -r | <seed> | <seed c> <seed x>] [-low32 | -high32]]
+ *  mizar64gen [-d | -r | <seed> | <seed c> <seed x> [-low32 | -high32]]
  *
  * 	mizar64gen                    Print help
  * 	mizar64gen -d                 Uses default mizar64 seeds
@@ -39,7 +39,7 @@ void usage(void)
 {
 	printf("mizar64gen - Continous mizar64 stdout pseudo number generator in binary format\n");
 	printf("Usage:\n");
-	printf("      mizar64gen [[-d | -r | <seed> | <seed c> <seed x>] [-low32 | -high32]]\n");
+	printf("      mizar64gen [-d | -r | <seed> | <seed c> <seed x> [-low32 | -high32]]\n");
 	printf("\n");
 	printf("      mizar64gen                    Print help\n");
 	printf("      mizar64gen -d                 Uses mizar64 default seeds\n");
