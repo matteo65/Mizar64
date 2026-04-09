@@ -45,11 +45,10 @@ void usage(void)
 	printf("      mizar64gen -d                 Uses mizar64 default seeds\n");
 	printf("      mizar64gen -r                 Uses random seeds(prints seeds on stderr)\n");
 	printf("      mizar64gen <seed>             Uses same seed for c and x\n");
-	printf("      mizar64gen <seed c> <seed x>  Uses seeds c and x \n");
+	printf("      mizar64gen <seed c> <seed x>  Uses seeds c and x\n");
 	printf("\n");
 	printf("option -low32: write on stdout the lowest 32 bit instead full 64 bit\n");
 	printf("option -high32: write on stdout the highest 32 bit instead full 64 bit\n");
-		
 }
 
 int is_valid_uint64(const char *s, uint64_t *out_value)
@@ -223,8 +222,7 @@ int main(int argc, char *argv[])
 			}
 			fwrite(buffer, sizeof(uint64_t), BUF_SIZE, stdout);
 		}
-	}	
-
+	}
 	return 0;
 }
 
