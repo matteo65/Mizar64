@@ -28,9 +28,9 @@ This table summarizes the results.
    3|dieharder -a -g 200 |123456789    |987654321    |test_03_dieharder.txt |110 PASSED, 4 WEAK  
    4|dieharder -a -g 200 |max uint64_t |max uint64_t |test_04_dieharder.txt |112 PASSED, 2 WEAK
    5|RNG_test stdin64 -tlmin 4GB|123456789|987654321 |test_05_rng_test.txt| length from 4GB to 32TB, no anomalies in 455 test
-   6|smokerand full stdin64|0          |0            |test_06.smokerand.txt|Passed: 50/50, Suspicious: 0, Failed: 0
-   7|smokerand full stdin64|123        |456          |test_07.smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
-   8|smokerand full stdin64|123456789  |987654321    |test_08.smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
+   6|smokerand full stdin64|0          |0            |test_06_smokerand.txt|Passed: 50/50, Suspicious: 0, Failed: 0
+   7|smokerand full stdin64|123        |456          |test_07_smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
+   8|smokerand full stdin64|123456789  |987654321    |test_08_smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
    9|smokerand full stdin64|max uint64_t|max uint64_t|test_09_smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
    
 
@@ -43,7 +43,8 @@ These are the results of statistical analysis applied to the lowest 4 bytes
   31|dieharder -a -g 200 |0            |0            |test_31_dieharder.txt |113 PASSED, 1 WEAK
   32|dieharder -a -g 200 |123456789    |987654321    |test_32_dieharder.txt |112 PASSED, 2 WEAK
   33|dieharder -a -g 200 |max uint64_t |max uint64_t |test_33_dieharder.txt |114 PASSED, 1 WEAK
-  34|smokerand full stdin32|0          |0            |test_34.smokerand.txt |Passed: 50/50, Suspicious: 0, Failed: 0
+  34|smokerand full stdin32|0          |0            |test_34_smokerand.txt |Passed: 50/50, Suspicious: 0, Failed: 0
+  35|RNG_test stdin32 -tlmin 1GB|12345 |67890        |test_35_rng_test.txt  |length from 1GB to 32TB, no anomalies in 304 test
   
 ### Tests on the 4 higher bytes
 These are the results of statistical analysis applied to the highest 4 bytes
