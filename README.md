@@ -1,15 +1,10 @@
 # Mizar64 PRNG
-Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games.
-
-## *Labor omnia vincit*
-*This project is the most substantial result to date from an independent R&D effort I started in 2021 on hash functions and PRNGs—a journey that is still ongoing. Mizar64 relies on constants originally identified by Donald Knuth, whose pioneering work has inspired developers since the 1980s; special thanks to him for both these values and his broader impact on computing.  
-I also gratefully acknowledge the AI tools that assisted with test planning, software configuration, testing tool development, and translation throughout this process*  
+Mizar64 is an ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
 
 ## Period
 The internal state is 128 bits, but the algorithm's design limits the effective state space for cycling. Current estimates place the period around 2<sup>94</sup>.
 
 ## Features
-
 
 ## Algorithm Logic
 Mizar64 uses a cross-coupled mixing technique. It evolves a linear counter (LCG), then applies a non-linear mixing phase involving 32-bit XOR-rotations and a final multiplication to ensure maximum bit diffusion.
@@ -35,6 +30,7 @@ This table summarizes the results.
    5|RNG_test stdin64 -tlmin 4GB|123456789|987654321 |test_05_rng_test.txt| length from 4GB to 32TB, no anomalies in 455 test
    6|smokerand full stdin64|0          |0            |test_06.smokerand.txt|Passed: 50/50, Suspicious: 0, Failed: 0
    7|smokerand full stdin64|123        |456          |test_07.smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
+   7|smokerand full stdin64|123456789  |987654321    |test_08.smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
    
 
 ### Tests on the 4 lower bytes
