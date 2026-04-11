@@ -43,6 +43,7 @@ These are the results of statistical analysis applied to the lowest 4 bytes
   31|dieharder -a -g 200 |0            |0            |test_31_dieharder.txt |113 PASSED, 1 WEAK
   32|dieharder -a -g 200 |123456789    |987654321    |test_32_dieharder.txt |112 PASSED, 2 WEAK
   33|dieharder -a -g 200 |max uint64_t |max uint64_t |test_33_dieharder.txt |114 PASSED, 1 WEAK
+  34|smokerand full stdin32|0          |0            |test_34.smokerand.txt|Passed: 50/50, Suspicious: 0, Failed: 0
   
 ### Tests on the 4 higher bytes
 These are the results of statistical analysis applied to the highest 4 bytes
