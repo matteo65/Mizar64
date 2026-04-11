@@ -34,6 +34,8 @@ This table summarizes the results.
    4|dieharder -a -g 200 |max uint64_t |max uint64_t |test_04_dieharder.txt |112 PASSED, 2 WEAK
    5|RNG_test stdin64 -tlmin 4GB|123456789|987654321 |test_05_rng_test.txt| length from 4GB to 32TB, no anomalies in 455 test
    6|smokerand full stdin64|0          |0            |test_06.smokerand.txt|Passed: 50/50, Suspicious: 0, Failed: 0
+   7|smokerand full stdin64|123        |456          |test_07.smokerand.txt|Passed: 49/50, Suspicious: 1, Failed: 0
+   
 
 ### Tests on the 4 lower bytes
 These are the results of statistical analysis applied to the lowest 4 bytes
