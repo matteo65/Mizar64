@@ -18,7 +18,7 @@ Numerous tests were performed with different tools:
 The tests are executed on
 - Linux mzpc2023 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
   
-The results of each test are available in the project's src/C/test directory.  
+The reports of each test are available in the project's src/C/test directory.  
 This table summarizes the results.
 
   n.| Tool               | Seed c      | Seed x      | Report          | Result  
