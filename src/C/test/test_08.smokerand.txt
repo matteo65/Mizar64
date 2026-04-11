@@ -1,4 +1,5 @@
  ./mizar64gen 123456789 987654321 | smokerand full stdin64
+
 Generator name:    stdin64
 Output size, bits: 64
 ===== Starting 'full' battery =====
