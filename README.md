@@ -55,7 +55,8 @@ These are the results of statistical analysis applied to the highest 4 bytes
   61|dieharder -a -g 200 |0            |0            |test_61_dieharder.txt |109 PASSED, 5 WEAK
   62|dieharder -a -g 200 |123456789    |987654321    |test_62_dieharder.txt |114 PASSED
   63|dieharder -a -g 200 |max uint64_t |max uint64_t |test_63_dieharder.txt |111 PASSED, 3 WEAK
-  64|smokerand full stdin32|0          |0            |test_64.smokerand.txt |Passed: 50/50, Suspicious: 0, Failed: 0
+  64|smokerand full stdin32|0          |0            |test_64_smokerand.txt |Passed: 50/50, Suspicious: 0, Failed: 0
+  65|smokerand full stdin32|12345      |67890        |test_65_smokerand.txt |Passed: 49/50, Suspicious: 1, Failed: 0
 
 
 ## Language	Cycles/Num	Speed (approx)
