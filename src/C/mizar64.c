@@ -18,7 +18,7 @@
 uint64_t mizar64(mizar64_state_t *state) 
 {
     // 1. Linear step: update counter
-    state->c = (state->c) * 0x5851f42d4c957f2dULL + 0x14057b7ef767814fULL;
+    state->c *= 0x9e3779b97f4a7c15ULL;
 
     // 2. Mixing step: cross-coupled XOR-rotation and multiplication
     return state->x = 0x9e3779b97f4a7c15ULL * ((state->c << 32) ^ (state->c >> 32) ^
