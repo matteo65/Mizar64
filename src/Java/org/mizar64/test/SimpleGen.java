@@ -23,6 +23,7 @@ public class SimpleGen {
         
         if(args.length != 2) {
             System.err.println("*** Error: invalid arguments");
+            System.exit(1);
         }
         
         long checksum = 0L;
