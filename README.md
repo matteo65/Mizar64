@@ -17,10 +17,10 @@ uint64_t mizar64(uint64_t *state)
 
 ## Tools
 The tools directory contains the programs used to run quality and speed tests; they are:
-- mizar64gen: Writes a continuous stream of binary numbers generated with Mizar64 to stdout
-- testu01_mizar64_high32: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the high 32 bits
-- testu01_mizar64_mid32: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the mmidle 32 bits
-- testu01_mizar64_low32: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on thw low 32 bits
+- **mizar64gen**: writes a continuous stream of binary numbers generated with Mizar64 to stdout
+- **testu01_mizar64_high32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the high 32 bits
+- **testu01_mizar64_mid32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the mmidle 32 bits
+- **testu01_mizar64_low32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on thw low 32 bits
 
 ## Smoke Test
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (v0.47-gcc-linux64) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
@@ -51,6 +51,8 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 We used PractRand version 0.96 with 64-bit input. We performed 12 runs from 1GB to 64TB.  
 
 ## TestU01
+
+## Hamming–Weight Dependencies
 
 ... work in progress ...
 
