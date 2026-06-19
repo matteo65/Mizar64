@@ -15,6 +15,6 @@
 
 uint64_t mizar64(uint64_t *state)
 {
-	*state = 0x9e3779b97f4a7c15L * ((*state << 32) | (*state >> 32));
-	return 0x9e3779b97f4a7c15L * (*state ^ (*state >> 17));
+	*state = 0x9e3779b97f4a7c15ull * ((*state << 32) | (*state >> 32));
+	return 0x9e3779b97f4a7c15ull * (*state ^ (*state >> 17));
 }
