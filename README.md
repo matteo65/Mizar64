@@ -17,9 +17,28 @@ uint64_t mizar64(uint64_t *state)
 
 ## Smoke Test
 We decided to use SmokeRand (v0.47-gcc-linux64) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
-We ran 12 full tests with 64-bit inputs; 10 tests with random seeds, and 2 tests with limit seeds (1 and UINT64_MAX).  
-The test output files are in the test_smokerand/ directory.
+We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (1 and UINT64_MAX).  
+The output files are in the test_smokerand/ directory.
+Each full run performs 50 tests, for a total of 600 tests.
+No failures were detected, and three suspects were found, a number consistent with the expected value.
+All runs scored a quality of 4 (good) on a scale from 0 to 4.  
 
+### SmokeRand Summary Table
+
+|# |         Seed       | Anomalies       |
+|--|--------------------|-----------------|
+|01|13105777253706137164|15 bspace4_8d_dec p-value = 2.74e-04<br>27 collover3_13d_high p-value = 1 - 7.90e-04|
+|02|1686565851063937383 |       -         |
+|03|13596189648237307270|       -         |
+|04|5848746668826697502 |41 hamming_ot_u512 p-value = 1 - 1.83e-06|
+|05|3696122887039482347 |       -         |
+|06|13448597441533183639|       -         |
+|07|15606701140595568730|       -         |
+|08|5529151067911971518 |       -         |
+|09|9243983136210913915 |       -         |
+|10|353607324833234878  |       -         |
+|11|1                   |       -         |
+|12|UMAX_INT64          |       -         |
 
 
 ## License
