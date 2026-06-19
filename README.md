@@ -20,7 +20,7 @@ The [tools/](https://github.com/matteo65/Mizar64/tree/main/tools) directory cont
 - **mizar64gen**: writes a continuous stream of binary numbers generated with mizar64 to stdout
 - **testu01_mizar64_high32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the high 32 bits
 - **testu01_mizar64_mid32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the mmidle 32 bits
-- **testu01_mizar64_low32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on thw low 32 bits
+- **testu01_mizar64_low32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the low 32 bits
 
 ## Smoke Test
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.47-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
