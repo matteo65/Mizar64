@@ -16,7 +16,7 @@ uint64_t mizar64(uint64_t *state)
 **Seed**: all 64-bit values ​​except 0  
 
 ## Smoke Test
-We decided to use SmokeRand (v0.47-gcc-linux64) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
+We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (v0.47-gcc-linux64) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
 We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (1 and UINT64_MAX).  
 The output files are in the test_smokerand/ directory.
 Each full run performs 50 tests, for a total of 600 tests.
