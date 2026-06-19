@@ -40,6 +40,10 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 |11|1                   |       -         |
 |12|UMAX_INT64          |       -         |
 
+## PractRand Test
+We used PractRand version 0.96 with 64-bit input. We performed 12 runs from 1GB to 64TB.  
+
+... work in progress ...
 
 ## License
 This project is released under the **Apache 2.0 License** - see the LICENSE file for details.
