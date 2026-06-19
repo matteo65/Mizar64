@@ -1,5 +1,5 @@
 # Mizar64 PRNG
-Mizar64 is an fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
+Mizar64 is a fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
 
 ```C
 uint64_t mizar64(uint64_t *state)
