@@ -16,7 +16,7 @@ uint64_t mizar64(uint64_t *state)
 **Seed**: all 64-bit values ​​except 0  
 
 ## Tools
-The tools directory contains the tools used to run quality and speed tests; they are:
+The tools directory contains the programs used to run quality and speed tests; they are:
 - mizar64gen: Writes a continuous stream of binary numbers generated with Mizar64 to stdout
 - testu01_mizar64_high32: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the high 32 bits
 - testu01_mizar64_mid32: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the mmidle 32 bits
