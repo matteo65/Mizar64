@@ -1,0 +1,82 @@
+../mizar64gen 749668287314343261 | RNG_test stdin64 -multithreaded -tlmin 1GB -tlmax 64TB > rng_test_06.txt &
+
+RNG_test using PractRand version 0.96
+RNG = RNG_stdin64, seed = unknown
+test set = core, folding = standard (64 bit)
+
+rng=RNG_stdin64, seed=unknown
+length= 1 gigabyte (2^30 bytes), time= 2.4 seconds
+  no anomalies in 227 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 2 gigabytes (2^31 bytes), time= 4.8 seconds
+  no anomalies in 242 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 4 gigabytes (2^32 bytes), time= 9.5 seconds
+  no anomalies in 256 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 8 gigabytes (2^33 bytes), time= 18.2 seconds
+  no anomalies in 270 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 16 gigabytes (2^34 bytes), time= 40.2 seconds
+  no anomalies in 283 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 32 gigabytes (2^35 bytes), time= 75.4 seconds
+  no anomalies in 296 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 64 gigabytes (2^36 bytes), time= 154 seconds
+  no anomalies in 308 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 128 gigabytes (2^37 bytes), time= 302 seconds
+  no anomalies in 320 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 256 gigabytes (2^38 bytes), time= 592 seconds
+  no anomalies in 332 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 512 gigabytes (2^39 bytes), time= 1136 seconds
+  no anomalies in 343 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 1 terabyte (2^40 bytes), time= 2345 seconds
+  no anomalies in 354 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 2 terabytes (2^41 bytes), time= 5064 seconds
+  Test Name                         Raw       Processed     Evaluation       
+  mod3n(5):(1,9-0)                  R=  -8.1  p =1-8.3e-5   unusual          
+  ...and 363 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=unknown
+length= 4 terabytes (2^42 bytes), time= 10699 seconds
+  no anomalies in 374 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 8 terabytes (2^43 bytes), time= 21805 seconds
+  Test Name                         Raw       Processed     Evaluation       
+  [Low16/64]DC6-9x1Bytes-1          R=  -6.3  p =1-6.8e-4   unusual          
+  ...and 382 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=unknown
+length= 16 terabytes (2^44 bytes), time= 44256 seconds
+  no anomalies in 392 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 32 terabytes (2^45 bytes), time= 92751 seconds
+  Test Name                         Raw       Processed     Evaluation       
+  [Low16/64]DC6-9x1Bytes-1          R=  -5.1  p =1-3.3e-3   unusual          
+  ...and 399 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=unknown
+length= 64 terabytes (2^46 bytes), time= 189008 seconds
+  Test Name                         Raw       Processed     Evaluation       
+  [Low1/64]DC6-9x1Bytes-1           R=  -6.3  p =1-6.7e-4   unusual          
+  ...and 406 test result(s) without anomalies
+
