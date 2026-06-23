@@ -10,7 +10,7 @@ uint64_t mizar64(uint64_t *state)
 ```
 
 ## Features
-**Period**: from $2^{62} - 1$ to $2^{64} - 1$ depending from seed  
+**Period**: from ($2^{62} - 1$) to ($2^{64} - 1$) depending from seed  
 **State**: 64 bit  
 **Output**: 64 bit  
 **Seed**: all 64-bit values ​​except 0  
