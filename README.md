@@ -22,7 +22,7 @@ The [tools/](https://github.com/matteo65/Mizar64/tree/main/tools) directory cont
 - **testu01_mizar64_mid32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the middle 32 bits
 - **testu01_mizar64_low32**: runs mizar64 TestU01 SmallCrush, Crush or BigCrush on the low 32 bits
 
-## Smoke Test
+## SmokeRand v.0.47-gcc-linux Tests
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.47-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
 We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (1 and UINT64_MAX).  
 The output files are in the [test_smokerand/](https://github.com/matteo65/Mizar64/tree/main/test_smokerand) directory.
@@ -47,10 +47,10 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 |11|1                   |       -         |
 |12|UMAX_INT64          |       -         |
 
-## PractRand Test
+## PractRand v.0.96 Tests
 We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from 1GB to 64TB.  
 
-## TestU01
+## TestU01 v,1.2.3 Tests
 
 ## Hamming–Weight Dependencies
 
