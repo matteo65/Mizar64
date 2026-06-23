@@ -50,7 +50,7 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 ## PractRand v.0.96 Tests
 We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from 1GB to 64TB.  
 
-## TestU01 v,1.2.3 Tests
+## TestU01 v.1.2.3 Tests
 
 ## Hamming–Weight Dependencies
 
