@@ -45,7 +45,7 @@ void usage(void)
 	printf("      mizar64gen [-r | <seed> [-low32 | -mid32 | -high32]]\n");
 	printf("\n");
 	printf("      mizar64gen           Print help\n");
-	printf("      mizar64gen -r        SRandom seed (print value on stderr)\n");
+	printf("      mizar64gen -r        Random seed (print value on stderr)\n");
 	printf("      mizar64gen <seed>    Seed must be non-zero\n");
 	printf("\n");
 	printf("option -low32: write on stdout the lowest 32 bit instead full 64 bit\n");
