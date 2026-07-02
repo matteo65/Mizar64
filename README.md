@@ -24,7 +24,7 @@ The [tools/](https://github.com/matteo65/Mizar64/tree/main/tools) directory cont
 
 ## SmokeRand v.0.47-gcc-linux Tests
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.47-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
-We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (1 and UINT64_MAX).  
+We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (1 and MAX_UINT64).  
 The output files are in the [test_smokerand/](https://github.com/matteo65/Mizar64/tree/main/test_smokerand) directory.
 Each full run performs 50 tests, for a total of 600 tests.
 No failures were detected, and three suspects were found, a number consistent with the expected value.
@@ -45,7 +45,7 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 |09|9243983136210913915 |       -         |
 |10|353607324833234878  |       -         |
 |11|1                   |       -         |
-|12|UMAX_INT64          |       -         |
+|12|MAX_UINT64          |       -         |
 
 ## PractRand v.0.96 Tests
 We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from 1GB to 64TB.  
