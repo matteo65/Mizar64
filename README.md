@@ -30,7 +30,7 @@ Each full run performs 50 tests, for a total of 600 tests.
 No failures were detected, and three suspects were found, a number consistent with the expected value.
 All runs scored a quality of 4 (good) on a scale from 0 to 4.  
 
-### SmokeRand Summary Table
+### SmokeRand Test Summary Table
 
 |# |         Seed       | Anomalies       |
 |--|--------------------|-----------------|
@@ -48,7 +48,7 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 |12|MAX_UINT64          |       -         |
 
 ## PractRand v.0.96 Tests
-We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from 1GB to 64TB.  
+We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from **1GB** to **64TB**.  
 
 ## TestU01 v.1.2.3 Tests
 
