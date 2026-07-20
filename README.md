@@ -242,7 +242,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |    |high32 | mid32 | low32 |**Total**|
 |----|-------|-------|-------|---------|
 |Top |17|13|15|**45**|
-|Bottom|17|16|21|**54***|
+|Bottom|17|16|21|**54**|
 |**Total**|**34**|**29**|**36**|**99**|
 
 ### Statistical of p-values
