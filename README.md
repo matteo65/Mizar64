@@ -51,8 +51,8 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 We used [PractRand](https://pracrand.sourceforge.net/) version **0.96** with 64-bit input. We performed 12 runs from **1GB** to **64TB**.  
 
 ## TestU01 v.1.2.3 Tests
-100 test session were performed. Each run involved running TestU1 BigCrush on the low 32 bits, the middle 32 bits, and the high 32 bits.  
-Random seeds were used in each run. The execution script is [run_bigcrush_test.sh](https://github.com/matteo65/Mizar64/tree/main/testu01_bigcrush/run_bigcrush_test.sh), and the list of reports from each run is in the directory [testu01_bigcrush/](https://github.com/matteo65/Mizar64/tree/main/testu01_bigcrush).
+100 test session were performed. Each session involved running TestU1 BigCrush on the low 32 bits, the middle 32 bits, and the high 32 bits.  
+Random seeds were used in each session. The execution script is [run_bigcrush_test.sh](https://github.com/matteo65/Mizar64/tree/main/testu01_bigcrush/run_bigcrush_test.sh), and the list of reports from each run is in the directory [testu01_bigcrush/](https://github.com/matteo65/Mizar64/tree/main/testu01_bigcrush).
 
 Number of session tests: **100**  
 Number of big_crush runs: **300**  
