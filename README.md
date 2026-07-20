@@ -61,7 +61,7 @@ Number of anomalies expected: 96.0
 |Runs|high32|mid32|low32|**Total**|
 |----|------|-----|-----|---------|
 |With anomalies|27|26|29|**82**|
-|Without anomalies|73|74|71|218|
+|Without anomalies|73|74|71|**218**|
 |**Total**|**100**|**100**|**100**|**300**|
 
 ### Details of anomalies for each session test
