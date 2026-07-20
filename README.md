@@ -62,7 +62,7 @@ Number of anomalies expected: 96.0
 |----|------|-----|-----|---------|
 |With anomalies|27|26|29|**82**|
 |Without anomalies|73|74|71|218|
-|**Total**|**100**|**100**|**100**|
+|**Total**|**100**|**100**|**100**|**300**|
 
 ### Details of anomalies for each session test
 | Test | high32 | mid32 | low32 |
@@ -242,7 +242,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |    |high32 | mid32 | low32 |**Total**|
 |----|-------|-------|-------|---------|
 |Top |17|13|15|**45**|
-|Bottom|17|16|21|**54|
+|Bottom|17|16|21|**54***|
 |**Total**|**34**|**29**|**36**|99**|
 
 ### Statistical of p-values
@@ -256,8 +256,6 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |Bottom Max Value|9.8e-4|9.9e-4|9.3e-4|
 |Bottom Min Value|1.7e-5|4.4e-5|5.6e-5|
 |Bottom Standard Deviation|0.001266|0.001300|0.001143|
-
-
 
 ## Hamming–Weight Dependencies
 
