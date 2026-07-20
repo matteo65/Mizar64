@@ -60,8 +60,8 @@ Nomber of TestU01 statistics: **48000**
 Number of failures: **0**  
 Number of anomalies: **99**  
 Number of anomalies expected: **96.0**  
-Maximum p-value: **1 - 3.7e-6**
-Minimum p-value: **1.7e-5**
+Maximum p-value: **1 - 3.7e-6**  
+Minimum p-value: **1.7e-5**  
 
 |Runs|high32|mid32|low32|**Total**|
 |----|------|-----|-----|---------|
