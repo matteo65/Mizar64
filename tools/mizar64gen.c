@@ -25,6 +25,7 @@
 #include <stdio.h> // fwrite()
 #include <string.h> // strcmp()
 #include <stdint.h> // uint64_t
+#include <inttypes.h> // PRIu64
 #include <time.h> // clock_gettime()
 #include <stdlib.h> // strtoull()
 #include <errno.h> // errno
@@ -143,8 +144,7 @@ int main(int argc, char *argv[])
 		
 		state = random_from_clock();
 		
-		fprintf(stderr, "mizar64gen: seed = %llu\n", 
-		                (unsigned long long)state);
+		fprintf(stderr, "mizar64gen: seed = %" PRIu64 "\n", state);
 	}
 	else if(is_valid_uint64(argv[1], &state)) {
 		if(argc == 3 && low_high_option == 0) {

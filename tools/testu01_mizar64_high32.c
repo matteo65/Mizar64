@@ -18,6 +18,7 @@
  
 #include <stdio.h>
 #include <stdint.h> // uint64_t
+#include <inttypes.h> // PRIu64
 #include <stdlib.h> // strcmp()
 #include <string.h> // strtoull()
 #include <errno.h> // errno
@@ -104,7 +105,7 @@ int main(int argc, char *argv[])
 	unif01_Gen *gen = unif01_CreateExternGenBits("Mizar64high32", mizar64high32);
 
 	printf("=== TestU01 - Generator: Mizar64high32 ===\n");
-	printf("Seed: %llu\n", (unsigned long long) state);
+	printf("Seed: %" PRIu64 "\n", state);
 
 	if (strcmp(test_type, "small") == 0) {
 		bbattery_SmallCrush(gen);
